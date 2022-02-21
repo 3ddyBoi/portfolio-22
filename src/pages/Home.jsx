@@ -1,18 +1,20 @@
 import { DefaultHelmet } from 'nl-ui';
 import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
-import './Home.css';
+import './Home.scss';
 
 import romsdalseggen1 from '../assets/images/romsdalseggen-1.jpeg';
+import marcusmuskler from '../assets/images/Marcus-muskler.png'
 
 const Home = () => {
     return (
         <div>
             <Navigation />
             <DefaultHelmet Title='Portfolio' SubTitle='Homepage' />
-            <section id='home'>
+            <section className='home' id='home'>
                 <div className='background-img'>
-                    <img src={romsdalseggen1} alt='Backgroundimage' />
+                    <img src={marcusmuskler} alt='Backgroundimage' />
                 </div>
             </section>
             <section id='about'>
@@ -27,9 +29,14 @@ const Home = () => {
                     </p>
                 </div>
             </section>
-            <section id='projects'>
+            <section className='projects' id='projects'>
                 <h2>Mine Prosjekter</h2>
-                <div>
+                <div className='projects-grid'>
+                    <img src={romsdalseggen1} alt='' />
+                    <img src={romsdalseggen1} alt='' />
+                    <img src={romsdalseggen1} alt='' />
+                    <img src={romsdalseggen1} alt='' />
+                    <img src={romsdalseggen1} alt='' />
                     <img src={romsdalseggen1} alt='' />
                 </div>
             </section>
@@ -43,6 +50,7 @@ const Home = () => {
                     <button>Submit</button>
                 </div>
             </section>
+            <Footer />
         </div>
     );
 };
