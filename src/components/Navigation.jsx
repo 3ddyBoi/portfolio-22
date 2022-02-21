@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const navigation = () => {
+const Navigation = () => {
     const scrollToElement = (id) => {
         const element = document.getElementById(id);
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -16,16 +16,24 @@ const navigation = () => {
                 </div>
                 <div className='navigation-items'>
                     <li>
-                        <Link to='/'>Home</Link>
+                        <button onClick={() => scrollToElement('home')}>
+                            Home
+                        </button>
                     </li>
                     <li>
-                        <Link to='/about'>About</Link>
+                        <button onClick={() => scrollToElement('about')}>
+                            About
+                        </button>
                     </li>
                     <li>
-                        <Link to='/projects'>Projects</Link>
+                        <button onClick={() => scrollToElement('projects')}>
+                            Projects
+                        </button>
                     </li>
                     <li>
-                        <Link to='/contact'>Contact</Link>
+                        <button onClick={() => scrollToElement('contact')}>
+                            Contact
+                        </button>
                     </li>
                 </div>
             </div>
@@ -33,4 +41,4 @@ const navigation = () => {
     );
 };
 
-export default navigation;
+export default Navigation;
