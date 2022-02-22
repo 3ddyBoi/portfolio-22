@@ -8,15 +8,17 @@ const Footer = () => {
     return (
         <footer id='footer' className='footer'>
             <div className='footer-content'>
-                <div className='socials'>
+                <div className='footer-content-socials'>
                     <AiFillInstagram />
                     <FaTwitch />
                     <FaYoutube />
                     <BsLinkedin />
                 </div>
-                <div className='contact'>
+                <div className='footer-content-contact'>
                     <h3>Marcus Flaterudhagen</h3>
-                    <a href='mailto:example@mail.com'>example@mail.com</a>
+                    <a href='mailto:example@mail.com'>
+                        example@mail.com
+                    </a>
                     <a href='tel:+4747654146'>+47 476 54 146</a>
                 </div>
                 <div className='plugs'>

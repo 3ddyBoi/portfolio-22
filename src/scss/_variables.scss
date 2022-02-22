@@ -1,0 +1,21 @@
+// Light
+$c-background-l: #fffffc;
+$c-background-v-l: #c4c4c4;
+
+$c-primary-l: #06d6a0;
+$c-primary-v-l: #04a078;
+$c-secondary-l: #d9dbf1;
+// $c-secondary-v-l: ;
+
+$c-text-l: #000000;
+$c-text-v-l: #ffffff;
+
+$f-title: 'Montserrat', sans-serif;
+$f-text: 'Montserrat', sans-serif;
+
+@mixin reset-button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

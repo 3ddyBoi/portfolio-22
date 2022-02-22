@@ -1,0 +1,39 @@
+@import 'variables';
+
+.navigation {
+    width: 100%;
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        color: $c-text-v-l;
+        &-logo {
+            h2 {
+                margin: 20px 0;
+                font-size: 30px;
+            }
+        }
+        &-items {
+            display: flex;
+            align-items: center;
+            li {
+                list-style: none;
+            }
+        }
+        a,
+        button {
+            @include reset-button;
+            color: $c-text-v-l;
+            font-family: $f-text;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 30px;
+            padding: 15px;
+            &:hover {
+                color: $c-primary-l;
+                text-decoration: underline;
+                text-underline-offset: 7px;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import 'variables';
+
+body {
+    margin: 0;
+    background-color: $c-background-l;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $f-title;
+}
+
+p,
+a,
+input,
+li,
+dl,
+dt {
+    font-family: $f-text;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+dl,
+dt {
+    font-weight: 500;
+}
+
+.console {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ff9a4a;
+    text-shadow: 3px 3px 0 #fdfe52, 3px 3px 0 #5bc0eb;
+}
