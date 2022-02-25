@@ -193,5 +193,77 @@
 }
 
 .contact {
-    background-color: $c-primary-l;
+    &-wave {
+        height: 90px;
+        width: 100%;
+    }
+    &-content {
+        background-color: $c-primary-l;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        &-form {
+            width: 70%;
+            h2 {
+                color: $c-text-v-l;
+                text-align: center;
+                padding: 40px;
+                margin-bottom: 0;
+            }
+            &-inputs {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(4, auto);
+                gap: 20px;
+                &-topic {
+                    grid-area: 2 / 1 / 3 / 3;
+                }
+                &-content {
+                    grid-area: 3 / 1 / 4 / 3;
+                    resize: none;
+                }
+                input,
+                textarea {
+                    border: none;
+                    outline: none;
+                    font-size: 30px;
+                    font-weight: 600;
+                    &:focus {
+                        background-color: #e9e9e9;
+                    }
+                    &:required {
+                        &::after {
+                            content: '*';
+                            display: block;
+                            width: 15px;
+                            color: red;
+                        }
+                    }
+                }
+                input {
+                    padding: 10px 35px;
+                    height: 50px;
+                    border-radius: 50px;
+                }
+                textarea {
+                    padding: 25px 35px;
+                    border-radius: 35px;
+                    height: 350px;
+                }
+                button {
+                    grid-area: 4 / 1 / 5 / 3;
+                    width: 300px;
+                    height: 60px;
+                    justify-self: center;
+                    border-radius: 50px;
+                    border: 5px solid $c-text-v-l;
+                    color: $c-text-v-l;
+                    font-size: 30px;
+                    font-weight: 600;
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }

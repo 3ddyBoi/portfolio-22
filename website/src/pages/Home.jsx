@@ -7,6 +7,8 @@ import scrollToElement from '../utils/scrollToElement';
 import { AiOutlineArrowUp } from 'react-icons/ai';
 import { RiArrowDownSLine } from 'react-icons/ri';
 
+import { ReactComponent as ContactWave } from '../assets/svg/contact-wave.svg';
+
 const Home = () => {
     const [pageYOffsetState, setPageYOffsetState] = useState('');
 
@@ -238,13 +240,45 @@ const Home = () => {
                 </div>
             </section>
             <section id='contact' className='contact'>
-                <h2>Kontakt meg</h2>
-                <div>
-                    <input type='text' />
-                    <input type='text' />
-                    <input type='text' />
-                    <input type='text' />
-                    <button>Send</button>
+                <ContactWave className='contact-wave' />
+                <div className='contact-content'>
+                    <div className='contact-content-form'>
+                        <h2>Kontakt Meg</h2>
+                        <form className='contact-content-form-inputs'>
+                            <input
+                                placeholder='Navn'
+                                type='text'
+                                aria-label='first-name'
+                                name='first-name'
+                                className='contact-content-form-inputs-firstname'
+                                required
+                            />
+                            <input
+                                placeholder='Epost'
+                                type='email'
+                                aria-label='e-mail'
+                                name='e-mail'
+                                className='contact-content-form-inputs-email'
+                                required
+                            />
+                            <input
+                                placeholder='Tema'
+                                type='text'
+                                aria-label='topic'
+                                name='topic'
+                                className='contact-content-form-inputs-topic'
+                            />
+                            <textarea
+                                placeholder='Beskjed'
+                                type='text'
+                                aria-label='content'
+                                name='content'
+                                className='contact-content-form-inputs-content'
+                                required
+                            />
+                            <button>Send</button>
+                        </form>
+                    </div>
                 </div>
             </section>
             <Footer />
