@@ -1,14 +1,19 @@
 {
     "name": "portfolio-22",
     "version": "1.0.0",
+    "private": "true",
     "description": "",
     "workspaces": [
-        "website"
+        "website",
+        "sanity"
     ],
     "scripts": {
-        "dev": "npm workspace website dev",
-        "build:react": "npm workspace website build",
-        "serve:react": "npm start -w website"
+        "dev": "npm -w website start",
+        "build:react": "npm -w website build",
+        "sanity": "npm -w sanity start",
+        "sanity:deploy": "npm -w sanity deploy",
+        "sanity:build": "npm -w sanity build",
+        "sanity:upgrade": "npm -w sanity upgrade"
     },
     "repository": {
         "type": "git",
