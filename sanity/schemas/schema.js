@@ -11,6 +11,9 @@ import post from './post';
 import author from './author';
 import siteSettings from './documents/siteSettings';
 import seo from './components/seo';
+import page from './documents/page';
+import cta from './objects/cta';
+import route from './documents/route';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -25,6 +28,9 @@ export default createSchema({
         post,
         author,
         category,
+        page,
+        cta,
+        route,
         // When added to this list, object types can be used as
         // { type: 'typename' } in other document schemas
         blockContent,

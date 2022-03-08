@@ -27,9 +27,9 @@
         "prop-types": "^15.7",
         "react": "^17.0",
         "react-dom": "^17.0",
+        "react-icons": "^4.3.1",
         "styled-components": "^5.2.0"
     },
-    "devDependencies": {},
     "repository": {
         "type": "git",
         "url": "https://github.com/3ddyBoi/portfolio-22.git"
