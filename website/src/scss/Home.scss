@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 .topButton {
     background-color: $c-primary-l;
@@ -71,6 +72,9 @@
 
 .about {
     height: 80vh;
+    @include xl {
+        height: auto;
+    }
     &-grid {
         display: grid;
         margin: 50px 0;
@@ -78,7 +82,10 @@
         grid-template-rows: repeat(1, 1fr);
         height: 100%;
         &-text {
-            padding: 0 150px;
+            @include xl {
+                padding-left: 50px;
+            }
+            padding-left: 150px;
             h2 {
                 color: $c-primary-l;
             }
@@ -98,6 +105,7 @@
 }
 .projects {
     position: relative;
+    padding: 0 0 50px 0;
     &-text {
         h2 {
             display: flex;
@@ -119,7 +127,10 @@
         grid-template-columns: repeat(3, min-content);
         grid-template-rows: repeat(2, 1fr);
         justify-content: center;
-        gap: 100px;
+        grid-gap: 100px;
+        @include xl {
+            grid-gap: 50px;
+        }
         &-item {
             position: relative;
             cursor: pointer;
@@ -196,12 +207,16 @@
     &-wave {
         height: 90px;
         width: 100%;
+        transform: translateY(10px);
     }
     &-content {
         background-color: $c-primary-l;
         display: flex;
         justify-content: center;
         height: 100vh;
+        @include xl {
+            height: auto;
+        }
         &-form {
             width: 70%;
             h2 {
