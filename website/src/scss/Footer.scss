@@ -7,10 +7,7 @@
     &-wave {
         z-index: -1;
         width: 100%;
-        transform: translateY(-1px);
-        @include xl {
-            transform: tranlateY(-10px);
-        }
+        height: 100%;
     }
     &-content {
         &-socials {
