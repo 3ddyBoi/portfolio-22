@@ -207,10 +207,6 @@
         background-color: $c-primary-l;
         display: flex;
         justify-content: center;
-        height: 100vh;
-        @include xl {
-            height: auto;
-        }
         &-form {
             width: 70%;
             h2 {
