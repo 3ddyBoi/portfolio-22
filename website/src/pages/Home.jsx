@@ -85,21 +85,13 @@ const Home = () => {
                         </div>
                         <div className='projects-grid-item-text'>
                             <h3>Opprykkskampen</h3>
-                            <dl>
-                                <dt>
-                                    Kategori:
-                                    <dd>Webserie</dd>
-                                </dt>
-                                <dt>
-                                    Kunde:
-                                    <dd>Fønix CC / HamKam</dd>
-                                </dt>
-                                <dt>
-                                    Arbeid:
-                                    <dd>Opptak, Klipp, Farge, Lyd</dd>
-                                </dt>
-                            </dl>
-                            <p>2021</p>
+
+                            <p>Kategori: Webserie</p>
+                            <p>Kunde: Fønix CC / HamKam</p>
+                            <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
+                            <p className='projects-grid-item-text-bottom'>
+                                2021
+                            </p>
                         </div>
                     </div>
                     <div className='projects-grid-item'>
@@ -112,21 +104,13 @@ const Home = () => {
                         </div>
                         <div className='projects-grid-item-text'>
                             <h3>Opprykkskampen</h3>
-                            <dl>
-                                <dt>
-                                    Kategori:
-                                    <dd>Webserie</dd>
-                                </dt>
-                                <dt>
-                                    Kunde:
-                                    <dd>Fønix CC / HamKam</dd>
-                                </dt>
-                                <dt>
-                                    Arbeid:
-                                    <dd>Opptak, Klipp, Farge, Lyd</dd>
-                                </dt>
-                            </dl>
-                            <p>2021</p>
+
+                            <p>Kategori: Webserie</p>
+                            <p>Kunde: Fønix CC / HamKam</p>
+                            <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
+                            <p className='projects-grid-item-text-bottom'>
+                                2021
+                            </p>
                         </div>
                     </div>
                     <div className='projects-grid-item'>
@@ -139,21 +123,13 @@ const Home = () => {
                         </div>
                         <div className='projects-grid-item-text'>
                             <h3>Opprykkskampen</h3>
-                            <dl>
-                                <dt>
-                                    Kategori:
-                                    <dd>Webserie</dd>
-                                </dt>
-                                <dt>
-                                    Kunde:
-                                    <dd>Fønix CC / HamKam</dd>
-                                </dt>
-                                <dt>
-                                    Arbeid:
-                                    <dd>Opptak, Klipp, Farge, Lyd</dd>
-                                </dt>
-                            </dl>
-                            <p>2021</p>
+
+                            <p>Kategori: Webserie</p>
+                            <p>Kunde: Fønix CC / HamKam</p>
+                            <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
+                            <p className='projects-grid-item-text-bottom'>
+                                2021
+                            </p>
                         </div>
                     </div>
                     <div className='projects-grid-item'>
@@ -166,21 +142,13 @@ const Home = () => {
                         </div>
                         <div className='projects-grid-item-text'>
                             <h3>Opprykkskampen</h3>
-                            <dl>
-                                <dt>
-                                    Kategori:
-                                    <dd>Webserie</dd>
-                                </dt>
-                                <dt>
-                                    Kunde:
-                                    <dd>Fønix CC / HamKam</dd>
-                                </dt>
-                                <dt>
-                                    Arbeid:
-                                    <dd>Opptak, Klipp, Farge, Lyd</dd>
-                                </dt>
-                            </dl>
-                            <p>2021</p>
+
+                            <p>Kategori: Webserie</p>
+                            <p>Kunde: Fønix CC / HamKam</p>
+                            <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
+                            <p className='projects-grid-item-text-bottom'>
+                                2021
+                            </p>
                         </div>
                     </div>
                     <div className='projects-grid-item'>
@@ -193,21 +161,13 @@ const Home = () => {
                         </div>
                         <div className='projects-grid-item-text'>
                             <h3>Opprykkskampen</h3>
-                            <dl>
-                                <dt>
-                                    Kategori:
-                                    <dd>Webserie</dd>
-                                </dt>
-                                <dt>
-                                    Kunde:
-                                    <dd>Fønix CC / HamKam</dd>
-                                </dt>
-                                <dt>
-                                    Arbeid:
-                                    <dd>Opptak, Klipp, Farge, Lyd</dd>
-                                </dt>
-                            </dl>
-                            <p>2021</p>
+
+                            <p>Kategori: Webserie</p>
+                            <p>Kunde: Fønix CC / HamKam</p>
+                            <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
+                            <p className='projects-grid-item-text-bottom'>
+                                2021
+                            </p>
                         </div>
                     </div>
                     <div className='projects-grid-item'>
@@ -220,21 +180,13 @@ const Home = () => {
                         </div>
                         <div className='projects-grid-item-text'>
                             <h3>Opprykkskampen</h3>
-                            <dl>
-                                <dt>
-                                    Kategori:
-                                    <dd>Webserie</dd>
-                                </dt>
-                                <dt>
-                                    Kunde:
-                                    <dd>Fønix CC / HamKam</dd>
-                                </dt>
-                                <dt>
-                                    Arbeid:
-                                    <dd>Opptak, Klipp, Farge, Lyd</dd>
-                                </dt>
-                            </dl>
-                            <p>2021</p>
+
+                            <p>Kategori: Webserie</p>
+                            <p>Kunde: Fønix CC / HamKam</p>
+                            <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
+                            <p className='projects-grid-item-text-bottom'>
+                                2021
+                            </p>
                         </div>
                     </div>
                 </div>

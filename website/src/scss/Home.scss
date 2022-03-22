@@ -159,17 +159,11 @@
                     font-size: 25px;
                     font-style: italic;
                 }
-                dl {
-                    dt {
-                        font-size: 20px;
-                        display: flex;
-                        dd {
-                            margin: 0;
-                            margin-left: 5px;
-                        }
-                    }
-                }
                 p {
+                    font-size: 20px;
+                    margin: 5px;
+                }
+                &-bottom {
                     position: absolute;
                     font-weight: 700;
                     font-size: 20px;
