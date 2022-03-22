@@ -103,10 +103,10 @@ const Home = () => {
                             />
                         </div>
                         <div className='projects-grid-item-text'>
-                            <h3>Opprykkskampen</h3>
+                            <h3>Skallebank</h3>
 
-                            <p>Kategori: Webserie</p>
-                            <p>Kunde: Fønix CC / HamKam</p>
+                            <p>Kategori: Musikkvideo</p>
+                            <p>Kunde: Personlig prosjekt</p>
                             <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
                             <p className='projects-grid-item-text-bottom'>
                                 2021
@@ -126,7 +126,7 @@ const Home = () => {
 
                             <p>Kategori: Webserie</p>
                             <p>Kunde: Fønix CC / HamKam</p>
-                            <p>Arbeid: Opptak, Klipp, Farge, Lyd</p>
+                            <p>Arbeid: Konsept, Opptak, Klipp, Farge, Lyd</p>
                             <p className='projects-grid-item-text-bottom'>
                                 2021
                             </p>
