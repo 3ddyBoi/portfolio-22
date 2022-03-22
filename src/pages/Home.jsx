@@ -98,7 +98,7 @@ const Home = () => {
                         <div className='overlay' />
                         <div className='projects-grid-item-img'>
                             <img
-                                src='https://i.imgur.com/tvDOpMa.png'
+                                src='https://i.imgur.com/NizrTpAh.jpg'
                                 alt=''
                             />
                         </div>
